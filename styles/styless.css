@@ -95,6 +95,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+        margin-top: 10px;
 }
 
 .action-btn {
@@ -204,9 +205,7 @@ body {
 }
 
 /* lets get in touch section  */
-.touch-in {
-
-}
+.touch-in {}
 
 .touch-in-container {
     width: 1140px;
@@ -221,21 +220,18 @@ body {
 
 }
 
-.left-touch-in-container {
+.left-touch-in-container {}
 
-
-}
-.touch-in-heading{
+.touch-in-heading {
     font-size: 97px;
     font-weight: bold;
 }
 
-.right-touch-in-container {
+.right-touch-in-container {}
 
-}
-
-.form-group input, textarea  {
-        height: 64px;
+.form-group input,
+textarea {
+    height: 64px;
     border-radius: 5px;
     background-color: white;
     display: block;
@@ -245,7 +241,8 @@ body {
     border: none;
     font-size: 18px;
 }
-.btn-get-in-touch{
+
+.btn-get-in-touch {
     padding: 14px 135px;
     margin-top: 15px;
     color: white;
@@ -254,13 +251,42 @@ body {
     border: none;
     border-radius: 10px;
 }
-.label{
+
+.label {
     font-size: 18px;
-   color:  #000000;
+    color: #000000;
 }
 
 
+/* footer style  */
+.footer {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: 428px;
+    padding: 70px;
+}
 
+.footer-container {
+    width: 531px;
+    height: 221px;
+    padding: 0px 0px;
+}
+
+.footer-heading {
+    font-size: 100px;
+    color: blue;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    gap: 65px;
+    margin-top: 19px;
+}
+.links a{
+    text-decoration: none;
+}
 
 
 
