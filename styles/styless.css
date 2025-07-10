@@ -13,6 +13,10 @@
     box-sizing: border-box;
     /* background-color: #F5F7FE; */
 }
+body{
+     background-color: #F5F7FE;
+
+}
 
 
 /* shared style  */
@@ -122,7 +126,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-        margin-top: 40px;
+    margin-top: 40px;
     margin-left: 80px;
     margin-right: 80px;
 }
@@ -139,4 +143,54 @@
     font-size: 20px;
     font-weight: normal;
     color: #000000;
+}
+
+/* Ready for focus style   */
+
+.title50 {
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.focus-sec {
+    width: 1140px;
+    height: 698px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 115px;
+    margin-left: 150px;
+    margin-right: 150px;
+    background-color: white;
+    border-radius: 16px;
+
+}
+
+.focus-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+.get-in-btn {
+    padding: 15px 25px;
+    margin-top: 15px;
+    color: white;
+    font-size: 16px;
+    background-color: #4E47FF;
+
+    border: none;
+    border-radius: 10px;
+}
+
+.focus-img {
+    margin-top: 20px;
+}
+
+.focus-img img {
+    width: 840px;
+    height: 364px;
+    border-radius: 48px;
 }
