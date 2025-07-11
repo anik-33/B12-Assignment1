@@ -126,7 +126,7 @@ body {
     margin-right: 140px;
     margin-top: 85px;
     height: 306px;
-    width: 1140px;
+    /* width: 1140px; */
     border-radius: 24px;
 }
 
@@ -208,12 +208,12 @@ body {
 }
 
 .users-review h2 {
-    font-size: 25px;
+    font-size: 22px;
     margin-top: 20px;
 }
 
 .users-review-para {
-    font-size: 20px;
+    font-size: 18px;
     color: black;
 }
 
