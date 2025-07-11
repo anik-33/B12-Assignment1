@@ -195,6 +195,9 @@ body {
     gap: 15px;
     margin-top: 25px;
 }
+.reviewer-img img{
+    border-radius: 50%;
+}
 
 .star {
     color: yellow;
