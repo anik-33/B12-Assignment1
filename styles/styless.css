@@ -104,6 +104,8 @@ body {
     justify-content: center;
     align-items: center;
     margin-top: 10px;
+    margin-left: 140px;
+    margin-right: 140px;
 }
 
 .action-btn {
@@ -234,7 +236,7 @@ body {
 }
 
 .focus-sec {
-    width: 1140px;
+    
     height: 698px;
     display: flex;
     flex-direction: column;
@@ -285,7 +287,7 @@ body {
 .touch-in {}
 
 .touch-in-container {
-    width: 1140px;
+    
     height: 630px;
     margin-left: 145px;
     margin-right: 145px;
