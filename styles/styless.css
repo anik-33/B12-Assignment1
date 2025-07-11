@@ -28,7 +28,10 @@ body {
     padding-left: 45px;
     padding-right: 45px;
     border: none;
-    border-radius: 10px
+    border-radius: 10px ;
+    transition: 0.3s;
+    cursor: pointer;
+    font-size: 18px;
 }
 
 .primary-bold-text-color {
@@ -69,6 +72,7 @@ body {
 .banner-btn {
     margin-top: 50px;
     padding: 20px 40px;
+    transition: 0.3s;
     cursor: pointer;
 }
 
@@ -95,7 +99,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-        margin-top: 10px;
+    margin-top: 10px;
 }
 
 .action-btn {
@@ -151,6 +155,70 @@ body {
     color: #000000;
 }
 
+/* what our users/reviewer say styly  */
+
+
+.user-feedback-main {
+    margin-left: 150px;
+    margin-right: 150px;
+    height: 350px;
+    margin-top: 140px;
+
+}
+
+.user-feedback-title {
+    color: #252432;
+    font-size: 42px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.what-users-say {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 23px;
+}
+
+.users-review {
+    width: 366px;
+    height: 243px;
+    background-color: white;
+    text-align: left;
+    border-radius: 14px;
+    margin-top: 30px;
+    padding: 24px 20px;
+}
+
+.reviewer-info {
+    display: flex;
+    gap: 15px;
+    margin-top: 25px;
+}
+
+.star {
+    color: yellow;
+}
+
+.users-review h2 {
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+.users-review-para {
+    font-size: 20px;
+    color: black;
+}
+
+.reviewer-name h6 {
+    font-size: 20px;
+    color: #8987A1;
+}
+
+.reviewer-name p {
+    color: #8987A1;
+}
+
 /* Ready for focus style   */
 
 .title50 {
@@ -188,6 +256,8 @@ body {
     background-color: #4E47FF;
     border: none;
     border-radius: 10px;
+    transition: 0.3s;
+    cursor: pointer;
 
 
 }
@@ -250,6 +320,8 @@ textarea {
     background-color: #4E47FF;
     border: none;
     border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
 }
 
 .label {
@@ -265,17 +337,19 @@ textarea {
     text-align: center;
     height: 428px;
     padding: 70px;
+    background-color: white;
 }
 
 .footer-container {
-    width: 531px;
-    height: 221px;
+    width: 630px;
+    height: 260px;
     padding: 0px 0px;
 }
 
 .footer-heading {
+    font-weight: bold;
     font-size: 100px;
-    color: blue;
+    color: #4E47FF;
 }
 
 .links {
@@ -284,19 +358,23 @@ textarea {
     gap: 65px;
     margin-top: 19px;
 }
-.links a{
-    text-decoration: none;
+
+.footer-subtitle {
+    font-size: 20px;
+    color: #8987A1;
 }
 
-
-
-
+.links a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #8987A1;
+}
 
 
 
 
 /* hobor effect  */
 
-.get-in-btn:hover {
+button:hover {
     background-color: red;
 }
